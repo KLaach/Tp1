@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    background-image: url(images/bg.jpg);
+    background-image: url('images/bg.jpg');
     background-size: contain;
 }
 body{
