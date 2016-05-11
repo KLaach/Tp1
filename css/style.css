@@ -1,5 +1,7 @@
 html {
     font-size: 62.5%;
+    background-image: url(images/bg.jpg);
+    background-size: contain;
 }
 body{
     font-size: 1.6rem;
@@ -12,7 +14,7 @@ h1{
 .titre{
     font-size: 8vw;   
 }
-
+/*
 .p1{
     background: blue;
 }
@@ -24,7 +26,7 @@ h1{
 .p3{
     background: red;
 }
-
+*/
 .iut{
     width: 300px;
     display: block;
