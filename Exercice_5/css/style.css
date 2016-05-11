@@ -2,3 +2,7 @@ menu{
     display: block;
     float:right;
 }
+
+.une_image{
+    max-width: 100%;
+}
