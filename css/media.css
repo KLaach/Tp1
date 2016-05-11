@@ -2,4 +2,9 @@
     img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
         max-width: 100%;
     }
+    
+    .iut{
+        max-width: 100%;
+        height: auto;
+    }
 }
