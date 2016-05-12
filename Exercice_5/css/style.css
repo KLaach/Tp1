@@ -31,6 +31,10 @@ table{
     float: left;
 }
 
+form{
+    line-height: 5%;
+}
+
 .prenom, .nom, .date, .ville{
     width: 40%;
 }
@@ -40,5 +44,5 @@ table{
 }
 
 .email, .photo, textarea{
-    width: 90%;
+    width: 85%;
 }
