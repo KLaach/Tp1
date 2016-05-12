@@ -14,3 +14,15 @@ table{
     margin-right: auto;
     text-align: center;
 }
+
+.second_part{
+    width: 100%;
+}
+
+.gauche{
+    width: 50%;
+}
+
+.droite{
+    width: 50%;
+}
