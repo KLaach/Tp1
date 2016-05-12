@@ -21,6 +21,7 @@ table{
 
 .gauche{
     width: 50%;
+    float: left;
 }
 
 .droite{
