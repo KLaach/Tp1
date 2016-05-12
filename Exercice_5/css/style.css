@@ -32,9 +32,13 @@ table{
 }
 
 .prenom, .nom, .date, .ville{
-    width: 35%;
+    width: 40%;
+}
+
+.nom, .ville{
+    margin-left: 3%;
 }
 
 .email, .photo, textarea{
-    width 90%;
+    width: 90%;
 }
