@@ -30,3 +30,11 @@ table{
     width: 50%;
     float: left;
 }
+
+.prenom, .nom, .date, .ville{
+    width: 35%;
+}
+
+.email, .photo, textarea{
+    width 90%;
+}
