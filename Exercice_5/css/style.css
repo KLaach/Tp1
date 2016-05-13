@@ -54,6 +54,10 @@ input{
     width: 85%;
 }
 
+textarea{
+    height : 400px;
+}
+
 footer{
     width: 100%;
     text-align: right;
