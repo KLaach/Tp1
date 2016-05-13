@@ -14,6 +14,7 @@
     
     .map{
         max-width: 100%;
+        vertical-align: middle;
     }
     
     .map_form{
@@ -25,7 +26,6 @@
     .gauche{
         display: block;
         width: 100%;
-
         float: left;
     }
 
@@ -53,6 +53,8 @@
     
     .map{
         max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .map_form{
@@ -65,13 +67,13 @@
     .gauche{
         display: block;
         width: 100%;
-        float: left;
+        text-align: center;
     }
 
     .droite{
         display: block;
         width: 100%;
-        float: left;
+        text-align: center;
     }
     
 }
