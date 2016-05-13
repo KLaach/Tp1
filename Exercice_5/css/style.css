@@ -7,9 +7,6 @@ a, li {
     list-style-type: none;
 }
 
-li:before {
-    content: "| ";
-}
 
 .une_image{
     width: 100%;
