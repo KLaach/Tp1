@@ -2,6 +2,8 @@
     <html lang="fr">
         <head>
             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+             <link rel="stylesheet" media="screen" href="css/media.css" type="text/css" />
             <link rel="stylesheet" href="css/style.css">
             <title>Exercice noté TP</title>
             <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
@@ -53,44 +55,48 @@
                 <p>
                     Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
                 </p>
-                <table>
-                    <tr>
-                        <td><img alt="" src="images/image_1.jpg"></td>
-                        <td><img alt="" src="images/image_2.jpg"></td>
-                        <td><img alt="" src="images/image_3.jpg"></td>
-                        <td><img alt="" src="images/image_4.jpg"></td>
-                    </tr>
-                    <tr>
-                        <td>Titre 1</td>
-                        <td>Titre 2</td>
-                        <td>Titre 3</td>
-                        <td>Titre 4</td>
-                    </tr>
-                    <tr>
-                        <td>Description 1</td>
-                        <td>Description 2</td>
-                        <td>Description 3</td>
-                        <td>Description 4</td>
-                    </tr>
-                </table>
+                <div class="images">
+                    <div class="p_img">
+                        <img alt="" src="images/image_1.jpg">
+                        <h4>Titre 1</h4>
+                        <p>Description 1</p>
+                    </div>
+                    <div class="d_img">
+                        <img alt="" src="images/image_2.jpg">
+                        <h4>Titre 2</h4>
+                        <p>Description 2</p>
+                    </div>
+                    <div class="t_img">
+                        <img alt="" src="images/image_3.jpg">
+                        <h4>Titre 3</h4>
+                        <p>Description 3</p>
+                    </div>
+                    <div class="q_img">
+                        <img alt="" src="images/image_4.jpg">
+                        <h4>Titre 4</h4>
+                        <p>Description 4</p>
+                    </div>
+                </div>
             </section>
             <section class="second_part">
-                <div class="gauche">
-                    <h2>Titre h2</h2>
-                    <div id="map"></div>
-                </div>
-                <div class="droite">
-                    <h2>Titre h2</h2>
-                    <form>
-                        <input class="prenom" type="text" name="prenom" placeholder="Prénom"/>
-                        <input class="nom" type="text" name="nom" placeholder="Nom"/>
-                        <input class="date" type="date" name="datenai" placeholder="Date de naissance"/>
-                        <input class="ville" type="text" name="ville" placeholder="Ville de naissance"/>
-                        <input class="email" type="email" name="email" placeholder="Adresse email"/>
-                        <input class="photo" type="" name="photo"/>
-                        <textarea placeholder="Message..."></textarea>
-                        <input class="envoie" type="submit" value="Envoyer"/>
-                    </form>
+                <div class="map_form">
+                    <div class="gauche">
+                        <h2>Titre h2</h2>
+                        <div class="map" id="map"></div>
+                    </div>
+                    <div class="droite">
+                        <h2>Titre h2</h2>
+                        <form>
+                            <input class="prenom" type="text" name="prenom" placeholder="Prénom"/>
+                            <input class="nom" type="text" name="nom" placeholder="Nom"/>
+                            <input class="date" type="date" name="datenai" placeholder="Date de naissance"/>
+                            <input class="ville" type="text" name="ville" placeholder="Ville de naissance"/>
+                            <input class="email" type="email" name="email" placeholder="Adresse email"/>
+                            <input class="photo" type="" name="photo"/>
+                            <textarea placeholder="Message..."></textarea>
+                            <input class="envoie" type="submit" value="Envoyer"/>
+                        </form>
+                    </div>
                 </div>
             </section>
 

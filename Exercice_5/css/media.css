@@ -1,0 +1,39 @@
+/*TABLETTE*/
+@media screen and (max-width: 1025px) and (min-width: 759px){
+    .logo{
+        display: block;
+        margin-right: auto;
+        margin-left:auto;
+    }
+    
+    menu{
+        display:block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .map{
+        max-width: 100%;
+    }
+    
+}
+
+/*MOBILE*/
+@media screen and (max-width: 760px){
+    .logo{
+        display: block;
+        margin-right: auto;
+        margin-left:auto;
+    }
+    
+    menu{
+        display:block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .map{
+        max-width: 100%;
+    }
+    
+}
