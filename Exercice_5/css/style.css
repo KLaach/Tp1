@@ -51,3 +51,8 @@ input{
 .email, .photo, textarea{
     width: 85%;
 }
+
+footer{
+    width: 100%;
+    text-align: right;
+}
