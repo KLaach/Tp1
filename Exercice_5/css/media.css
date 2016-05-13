@@ -16,6 +16,25 @@
         max-width: 100%;
     }
     
+    .map_form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction : column;
+    }
+    
+    .gauche{
+        display: block;
+        width: 100%;
+
+        float: left;
+    }
+
+    .droite{
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    
 }
 
 /*MOBILE*/
@@ -34,6 +53,25 @@
     
     .map{
         max-width: 100%;
+    }
+    
+    .map_form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction : column;
+        width: 100%;
+    }
+    
+    .gauche{
+        display: block;
+        width: 100%;
+        float: left;
+    }
+
+    .droite{
+        display: block;
+        width: 100%;
+        float: left;
     }
     
 }

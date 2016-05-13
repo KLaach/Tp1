@@ -53,11 +53,7 @@ input{
     height: 500px;
 }
 
-.map_form{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction : column;
-}
+
 
 .prenom, .nom, .date, .ville{
     width: 40%;
