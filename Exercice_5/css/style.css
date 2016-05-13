@@ -31,8 +31,8 @@ table{
     float: left;
 }
 
-form{
-    line-height: 5%;
+input{
+    margin-bottom: 2%;
 }
 
 .prenom, .nom, .date, .ville{
