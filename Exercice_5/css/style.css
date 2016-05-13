@@ -5,6 +5,7 @@ menu{
 
 a, li {
     list-style-type: none;
+    display: inline;
 }
 
 
@@ -63,15 +64,26 @@ textarea{
     height : 400px;
 }
 
+.envoie{
+    width: 25%;
+    float: right;
+    margin-right: 14%;
+    margin-top: 2%;
+}
+
 footer{
     width: 100%;
     text-align: right;
 }
 
+/*TABLETTE*/
 @media screen and (max-width: 1025px) and (min-width: 759px){
-    
+    .logo, menu{
+        vertical-align: middle;
+    }
 }
 
+/*MOBILE*/
 @media screen and (max-width: 760px){
     
 }
