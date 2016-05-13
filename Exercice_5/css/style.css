@@ -3,6 +3,17 @@ menu{
     float:right;
 }
 
+.btnMenu{
+    display:none;
+    float:left;
+}
+
+.btnMobile{
+    display:none;
+    float:right;
+}
+
+
 a, li {
     list-style-type: none;
     text-decoration:none; 

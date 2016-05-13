@@ -41,14 +41,25 @@
 @media screen and (max-width: 760px){
     .logo{
         display: block;
+        vertical-align: middle;
         margin-right: auto;
         margin-left:auto;
     }
     
     menu{
-        display:block;
-        width: 100%;
-        text-align: center;
+        display:none;
+    }
+    
+    .btnMenu{
+        display: block;
+    }
+    
+    .btnMobile{
+        display: block;
+    }
+    
+    .first_line{
+        display: inline-block;
     }
     
     .map{
