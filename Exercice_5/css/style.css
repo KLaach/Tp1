@@ -35,6 +35,11 @@ input{
     margin-bottom: 2%;
 }
 
+#map{
+    width: 600px;
+    height: 600px;
+}
+
 .prenom, .nom, .date, .ville{
     width: 40%;
 }
