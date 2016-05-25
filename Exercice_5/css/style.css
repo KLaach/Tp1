@@ -1,5 +1,11 @@
+body {
+background-image:url('../images/background.png');
+background-repeat:repeat;
+}
+
 menu{
     display: block;
+    margin-top : 3%;
     float:right;
 }
 
@@ -13,11 +19,30 @@ menu{
     float:right;
 }
 
-
-a, li {
+ul {
     list-style-type: none;
-    text-decoration:none; 
-    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    height: 15px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 
