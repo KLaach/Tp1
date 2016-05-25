@@ -89,11 +89,17 @@
         display:none;
     }
 
-
     .droite{
         display: block;
         width: 100%;
         text-align: center;
+    }
+
+    .envoie{
+           width: 88%;
+    float: right;
+    margin-right: 6%;
+    margin-top: 2%;
     }
     
 }
