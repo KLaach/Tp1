@@ -22,3 +22,8 @@ function successCallback(position){
     map: map
   }); 
 }
+
+function showMenu(){
+  var el = document.getElementById("menu");
+  el.setAttribute('class','');
+}
