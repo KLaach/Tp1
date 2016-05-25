@@ -58,7 +58,6 @@ li a:hover {
     margin-right: auto;
     text-align: center;
     justify-content: space-around;
-    
     flex-wrap: wrap;
 
 }
@@ -73,6 +72,14 @@ li a:hover {
     height: 700px;
     float: left;
 }
+
+.separation{
+    clear: both;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 47%;
+    height: 100%;
+    }
 
 .droite{
     display: block;
@@ -89,8 +96,6 @@ input{
     width: 90%;
     height: 500px;
 }
-
-
 
 .prenom, .nom, .date, .ville{
     width: 40%;

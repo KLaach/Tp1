@@ -29,6 +29,10 @@
         float: left;
     }
 
+    .separation{
+        display:none;
+    }
+
     .droite{
         display: block;
         width: 100%;
@@ -80,6 +84,11 @@
         width: 100%;
         text-align: center;
     }
+
+    .separation{
+        display:none;
+    }
+
 
     .droite{
         display: block;
